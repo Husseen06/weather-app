@@ -26,6 +26,7 @@ const lastUpdated = computed(() => {
         @click="$emit('close')"
         class="cursor-pointer w-10 h-10 flex items-center justify-center rounded-full bg-black/10 hover:bg-black/20 transition-colors"
       >
+        ❌
         <i class="fa-solid fa-xmark text-xl text-slate-800"></i>
       </button>
     </div>
